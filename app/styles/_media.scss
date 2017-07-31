@@ -1,0 +1,107 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+	/* Medium Devices, Desktops */
+	@media only screen and (max-width : 992px) {
+
+		.sidebar-left {
+			margin-bottom: 20px;
+		}
+
+	}
+
+	/* Small Devices, Tablets */
+	@media only screen and (max-width : 768px) {
+
+		.menu {
+			display: none;
+			position: fixed;
+			z-index: 1000;
+			top: 53px;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			padding: 20px 0;
+			background-color: #fff;
+			border-top: 3px solid $grey;
+			li {
+				float: none;
+				margin-right: 0;
+				border-bottom: 1px solid $grey;
+				&:last-child {
+					border-bottom: none;
+				}
+				a {
+					display: block;
+					text-align: center;
+					padding: 15px 0;
+				}
+			}
+
+		}
+
+		.site-logo {
+			padding-top: 0;
+		}
+
+		.mob-menu-btn {
+			display: block;
+		}
+
+		.slider-item-info-left {
+			float: none;
+			width: 100%;
+		}
+
+		.slider-item-info-right {
+			float: none;
+			width: 100%;
+		}
+
+		.slider-item-info {
+			position: static;
+		}
+
+		.discount-first {
+			input {
+				width: 100%;
+			}
+		}
+
+		.block-title-left, .block-title-right, .socials {
+			float: none;
+		}
+
+		.block-title-left {
+			border-bottom: 1px solid $grey;
+		}
+
+		.block-title-right {
+			text-align: center;
+			span {
+				line-height: 40px;
+			}
+		}
+
+		.socials {
+			margin: 0;
+			margin-bottom: 20px;
+			text-align: center;
+			a {
+				margin: 0 5px;
+			}
+		}
+
+	}
+
+	/* Extra Small Devices, Phones */ 
+	@media only screen and (max-width : 480px) {
+
+	}
+
+	/* Custom, iPhone Retina */ 
+	@media only screen and (max-width : 320px) {
+
+	}

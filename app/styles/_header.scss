@@ -1,0 +1,42 @@
+/* Header */
+header {
+	background-color: #fff;
+	position: relative;
+}
+
+.site-logo {
+	display: block;
+	padding-top: 25px;
+	img {
+		height: 53px;
+		width: auto;
+	}
+}
+
+.menu {
+	float: right;
+	padding: 40px 0;
+	li {
+		display: block;
+		float: left;
+		margin-right: 40px;
+		&:last-child {
+			margin-right: 0;
+		}
+		a {
+			font-family: 'Ubuntu', sans-serif;
+			line-height: 26px;
+			text-transform: uppercase;
+		}
+	}
+}
+
+.mob-menu-btn {
+	display: none;
+	float: right;
+	margin-top: 15px;
+	i {
+		font-size: 21px;
+	}
+}
+/* End Header */
