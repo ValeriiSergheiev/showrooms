@@ -1,12 +1,18 @@
 /* Header */
 header {
 	background-color: #fff;
-	position: relative;
+	//position: relative;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+	box-shadow: $box-shadow;
 }
 
 .site-logo {
 	display: block;
-	padding-top: 25px;
+	padding-top: 3px;
 	img {
 		height: 53px;
 		width: auto;
@@ -15,7 +21,7 @@ header {
 
 .menu {
 	float: right;
-	padding: 40px 0;
+	//padding: 30px 0;
 	li {
 		display: block;
 		float: left;
@@ -24,8 +30,10 @@ header {
 			margin-right: 0;
 		}
 		a {
+			display: inline-block;
 			font-family: 'Ubuntu', sans-serif;
-			line-height: 26px;
+			//line-height: 26px;
+			padding: 20px 0;
 			text-transform: uppercase;
 		}
 	}

@@ -39,6 +39,7 @@ a {
 	}
 	&:focus, &:active {
 		color: inherit;
+		outline: none;
 	}
 }
 
@@ -50,6 +51,9 @@ a {
 	font-family: 'Ubuntu';
 	font-weight: 700;
 	padding: 6px 12px;
+	i {
+		margin-right: 10px;
+	}
 	&:hover {
 		background-color: darken($green, 10%);
 		transition: $transition;
@@ -58,4 +62,9 @@ a {
 
 .red-text {
 	color: $red;
+}
+
+.title-bold {
+	font-family: 'Ubuntu';
+	font-weight: 700;
 }

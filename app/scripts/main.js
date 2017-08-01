@@ -17,10 +17,48 @@ $(document).ready(function() {
 	//Slider
 	$('.home-page-slider').slick({
 		infinite: true,
-		autoplay: false,
+		autoplay: true,
 		fade: true,
 		prevArrow: '<button type="button" class="slick-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></button>',
 		nextArrow: '<button type="button" class="slick-next"><i class="fa fa-angle-right" aria-hidden="true"></i></button>'
+	});
+
+	$('.featured-stores-slider').slick({
+		infinite: true,
+		autoplay: true,
+		speed: 900,
+		autoplaySpeed: 300,
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		centerMode: false,
+		prevArrow: '<button type="button" class="slick-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></button>',
+		nextArrow: '<button type="button" class="slick-next"><i class="fa fa-angle-right" aria-hidden="true"></i></button>',
+		responsive: [
+		{
+			breakpoint: 1200,
+			settings: {
+				slidesToShow: 3,
+				slidesToScroll: 1,
+				centerMode: false
+			}
+		},
+		{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 2,
+				slidesToScroll: 1,
+				centerMode: false
+			}
+		},
+		{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 2,
+				slidesToScroll: 1,
+				centerMode: false
+			}
+		}
+		]
 	});
 
 });
