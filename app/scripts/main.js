@@ -61,4 +61,12 @@ $(document).ready(function() {
 		]
 	});
 
+	//Collapse content
+	$('.text-block article').readmore({
+		speed: 75,
+		collapsedHeight: 50,
+		moreLink: '<a href="#" class="btn-common">Подробнее</a>',
+		lessLink: '<a href="#" class="btn-common">Свернуть</a>'
+	});
+
 });

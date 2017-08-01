@@ -484,4 +484,69 @@
 		border: none;
 	}
 }
+
+//Blog section
+.blog-reviews-item {
+	@extend .discount-item;
+}
+
+.blog-reviews-item-header {
+	position: relative;
+	a {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+	}
+}
+
+.blog-reviews-item-body {
+	height: 200px;
+	padding: 15px;
+	overflow: hidden;
+	span {
+		font-size: 11px;
+		color: #7c7c7c;
+	}
+	p {
+		font-size: 16px;
+		margin: 15px 0;
+	}
+	article {
+		line-height: 23px;
+		text-align: justify;
+	}
+}
+
+.blog-reviews-item-footer {
+	padding: 15px;
+	color: #7c7c7c;
+}
+
+//Text block
+.text-block {
+	background-color: #fff;
+	margin: 80px 0;
+	padding: 20px;
+	span {
+		font-size: 22px;
+	}
+	article {
+		line-height: 23px;
+		margin: 20px 0;
+		text-align: justify;
+		//height: 50px;
+		overflow: hidden;
+		transition: $transition;
+	}
+	div {
+		text-align: center;
+		button {
+			border: none;
+		}
+	}
+}
+
+.collapse-text {
+	height: auto !important;
+}
 /* *** End Home page *** */

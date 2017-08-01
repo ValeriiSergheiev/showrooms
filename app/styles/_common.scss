@@ -57,6 +57,7 @@ a {
 	&:hover {
 		background-color: darken($green, 10%);
 		transition: $transition;
+		color: #fff;
 	}
 }
 
