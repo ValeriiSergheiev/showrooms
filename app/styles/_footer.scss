@@ -27,6 +27,24 @@ footer {
 	}
 }
 
+.footer-nav {
+	text-align: center;
+	a {
+		display: inline-block;
+		font-family: 'Ubuntu';
+		text-transform: uppercase;
+		color: #7c7c7c;
+		margin-right: 20px;
+		padding: 20px 0;
+		&:last-child {
+			margin-right: 0;
+		}
+		&:hover {
+			color: #fff;
+		}
+	}
+}
+
 .footer-bottom {
 	background-color: #212225;
 	padding: 30px 0;

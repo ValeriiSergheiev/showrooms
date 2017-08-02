@@ -128,7 +128,14 @@
 	/* Extra Small Devices, Phones */ 
 	@media only screen and (max-width : 480px) {
 
-		
+		.tabs-panel {
+			li {
+				border-right: none;
+				border-bottom: 1px solid $grey;
+				text-align: center;
+				width: 100%;
+			}
+		}
 
 	}
 

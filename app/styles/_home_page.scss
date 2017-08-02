@@ -9,6 +9,7 @@
 	padding: 70px 0 40px;
 	h1 {
 		font-family: 'Ubuntu';
+		font-weight: 700;
 		color: #fff;
 		font-size: 35px;
 		line-height: 55px;
@@ -130,6 +131,10 @@
 			}
 		}
 	}
+}
+
+.all-category-link {
+	text-align: center;
 }
 
 //Home page top content / Slider
@@ -474,7 +479,7 @@
 .discount-item-body {
 	position: relative;
 	padding: 15px;
-	height: 170px;
+	height: 200px;
 	.ratings {
 		li:last-child {
 			float: right;

@@ -69,4 +69,11 @@ $(document).ready(function() {
 		lessLink: '<a href="#" class="btn-common">Свернуть</a>'
 	});
 
+	$('.block-title-stores-list').readmore({
+		speed: 75,
+		collapsedHeight: 80,
+		moreLink: '<a href="#" class="btn-common">Все магазины</a>',
+		lessLink: '<a href="#" class="btn-common">Свернуть</a>'
+	});
+
 });
