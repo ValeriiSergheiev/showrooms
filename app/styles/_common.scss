@@ -62,6 +62,24 @@ a {
 	}
 }
 
+.btn-active-grey {
+	a {
+		background-color: $grey;
+		color: $purple !important;
+	}
+}
+
+.menu-active {
+	a {
+		background-color: $grey;
+		color: $purple !important;
+		i {
+			background-color: $purple;
+			color: #fff !important;
+		}	
+	}
+}
+
 .btn-block {
 	text-align: center;
 	button, input {

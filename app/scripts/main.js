@@ -76,4 +76,21 @@ $(document).ready(function() {
 		lessLink: '<a href="#" class="btn-common">Свернуть</a>'
 	});
 
+	$('.sidebar-text p').readmore({
+		speed: 75,
+		collapsedHeight: 125,
+		moreLink: '<a href="#" class="btn-common">Подробнее</a>',
+		lessLink: '<a href="#" class="btn-common">Свернуть</a>'
+	});
+
+	//Tab active
+	$('.tabs-panel li').click(function() {
+		$(this).addClass('btn-active-grey').siblings().removeClass('btn-active-grey');
+	});
+
+	//Menu active
+	$('.sidebar-list li').click(function() {
+		$(this).addClass('menu-active').siblings().removeClass('menu-active');
+	});
+
 });
