@@ -435,6 +435,42 @@
 	}
 }
 
+.discount-logo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 20%;
+}
+
+.profit {
+	display: block;
+	padding: 10px;
+	background: #fc2a00;
+	font-family: Open Sans, sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	color: #fff;
+	width: auto;
+	max-width: 90%;
+	position: absolute;
+	height: 40px;
+	top: 10px;
+	z-index: 1;
+	&::before {
+		content: ' ';
+		position: absolute;
+		width: 0;
+		height: 0;
+		left: 100%;
+		top: 0px;
+		margin-left: -20px;
+		border-top: 20px solid #fc2a00;
+		border-left: 20px solid transparent;
+		border-bottom: 20px solid #fc2a00;
+		border-right: 20px solid transparent;
+	}
+}
+
 .discount-item-body {
 	position: relative;
 	padding: 15px;
@@ -506,7 +542,8 @@
 		font-size: 11px;
 		color: #7c7c7c;
 	}
-	p {
+	a {
+		display: block;
 		font-size: 16px;
 		margin: 15px 0;
 	}

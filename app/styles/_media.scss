@@ -1,6 +1,12 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
+	.item-ratings {
+		span {
+			display: none;
+		}
+	}
+
 }
 
 	/* Medium Devices, Desktops */
@@ -122,11 +128,7 @@
 	/* Extra Small Devices, Phones */ 
 	@media only screen and (max-width : 480px) {
 
-		.item-ratings {
-			span {
-				display: none;
-			}
-		}
+		
 
 	}
 
