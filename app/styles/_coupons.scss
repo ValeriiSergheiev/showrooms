@@ -13,7 +13,11 @@
 }
 
 .red-label {
-	display: block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 10px;
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -24,11 +28,12 @@
 	height: 80px;
 	background-color: $red;
 	color: #fff;
-	font-size: 18px;
+	font-size: 16px;
 	font-family: 'Ubuntu';
 	font-weight: 700;
-	text-align: center;
-	padding-top: 25px;
+	span {
+		display: block;
+	}
 }
 
 //Coupon list
@@ -53,6 +58,7 @@
 	float: left;
 	width: 60%;
 	height: auto;
+	border-left: 1px solid $grey;
 }
 
 .coupon-list-text {
