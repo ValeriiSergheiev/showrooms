@@ -66,21 +66,28 @@ $(document).ready(function() {
 		speed: 75,
 		collapsedHeight: 50,
 		moreLink: '<a href="#" class="btn-common">Подробнее</a>',
-		lessLink: '<a href="#" class="btn-common">Свернуть</a>'
+		lessLink: '<a href="#" class="btn-common">Скрыть</a>'
 	});
 
 	$('.block-title-stores-list').readmore({
 		speed: 75,
 		collapsedHeight: 80,
 		moreLink: '<a href="#" class="btn-common">Все магазины</a>',
-		lessLink: '<a href="#" class="btn-common">Свернуть</a>'
+		lessLink: '<a href="#" class="btn-common">Скрыть</a>'
 	});
 
 	$('.sidebar-text p').readmore({
 		speed: 75,
 		collapsedHeight: 125,
 		moreLink: '<a href="#" class="btn-common">Подробнее</a>',
-		lessLink: '<a href="#" class="btn-common">Свернуть</a>'
+		lessLink: '<a href="#" class="btn-common">Скрыть</a>'
+	});
+
+	$('.coupon-list-text').readmore({
+		speed: 75,
+		collapsedHeight: 0,
+		moreLink: '<a href="#" class="btn-common">Подробнее</a>',
+		lessLink: '<a href="#" class="btn-common">Скрыть</a>'
 	});
 
 	//Tab active

@@ -7,6 +7,13 @@
 		}
 	}
 
+	.coupon-item-header-list {
+		button {
+			left: 30px;
+			width: calc(100% - 60px);
+		}
+	}
+
 }
 
 	/* Medium Devices, Desktops */
@@ -123,6 +130,23 @@
 			margin-right: auto;
 		}
 
+		.coupon-item-header-list {
+			float: none;
+			width: 100%;
+		}
+
+		.coupon-item-body-list {
+			float: none;
+			width: 100%;
+		}
+
+		.coupon-item-header-list {
+			button {
+				left: 50px;
+				width: calc(100% - 100px);
+			}
+		}
+
 	}
 
 	/* Extra Small Devices, Phones */ 
@@ -145,6 +169,12 @@
 
 		.view-mode li i {
 			display: inline;
+		}
+
+		.coupon-item-header-list {
+			button {
+				bottom: 0;
+			}
 		}
 
 	}
