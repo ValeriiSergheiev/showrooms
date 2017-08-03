@@ -1,0 +1,31 @@
+/* Coupons Page*/
+.coupon-item-table {
+	@extend .discount-item;
+}
+
+.coupon-item-header {
+	@extend .discount-item-header;
+	.red-label {
+		display: block;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		width: 120px;
+		height: 80px;
+		background-color: $red;
+		color: #fff;
+		font-size: 18px;
+		font-family: 'Ubuntu';
+		font-weight: 700;
+		text-align: center;
+		padding-top: 25px;
+	}
+}
+
+.coupon-item-body {
+	@extend .discount-item-body;
+}
+/* End Coupons Page*/

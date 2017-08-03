@@ -93,4 +93,9 @@ $(document).ready(function() {
 		$(this).addClass('menu-active').siblings().removeClass('menu-active');
 	});
 
+	//View mode active
+	$('.view-mode li').click(function() {
+		$(this).addClass('view-mode-active').siblings().removeClass('view-mode-active');
+	});
+
 });

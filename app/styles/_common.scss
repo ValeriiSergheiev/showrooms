@@ -69,6 +69,10 @@ a {
 	}
 }
 
+.view-mode-active a i {
+	color: $purple !important;
+}
+
 .menu-active {
 	a {
 		background-color: $grey;
